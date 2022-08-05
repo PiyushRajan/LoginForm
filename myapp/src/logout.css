@@ -1,0 +1,15 @@
+h1 {
+  text-align: center;
+}
+.buton {
+  width: 40%;
+  height: 4em;
+  justify-content: center;
+  margin-left: 35em;
+  border-radius: 1em;
+  cursor: pointer;
+  font-weight: bolder;
+}
+p {
+  text-align: center;
+}
