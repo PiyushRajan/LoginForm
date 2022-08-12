@@ -1,15 +1,25 @@
-h1 {
-  text-align: center;
-}
 .buton {
-  width: 40%;
+  width: 10%;
   height: 4em;
-  justify-content: center;
-  margin-left: 35em;
   border-radius: 1em;
   cursor: pointer;
   font-weight: bolder;
+  margin-top: 2em;
+  background-color: burlywood;
 }
-p {
+
+.head {
+  display: flex;
+  border-bottom: 1px solid black;
+  background-color: #008793;
+  justify-content: space-between;
+}
+.userinfo {
   text-align: center;
+  border: 1px dotted black;
+  margin: auto;
+  margin-top: 8%;
+  width: 40%;
+  background-color: #008793;
+  color: burlywood;
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import LoginForm from "./login";
+import LoginForm from "./Login";
 import { Route, Routes } from "react-router-dom";
 import Logoutperson from "./Logout";
 

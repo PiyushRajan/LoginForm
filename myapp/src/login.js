@@ -48,10 +48,10 @@ const LoginForm = () => {
         <input
           className="input"
           type="text"
-          placeholder="Username"
+          placeholder="Email"
           onChange={(e) => setEmail(e.target.value)}
         />
-        {usererr ? <span>Please Enter Username yes</span> : null}
+        {usererr ? <span>Please Enter Email</span> : null}
         <input
           className="input"
           type="password"
