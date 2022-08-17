@@ -31,12 +31,13 @@ const LoginForm = () => {
       );
       result = await result.json();
       localStorage.setItem("user-info", JSON.stringify(result));
+      localStorage.setItem("user", JSON.stringify(result.token));
       if (result.token === undefined) {
         navigate("/");
         alert("not registered");
       } else {
         console.log(result.token);
-        navigate("/login");
+        navigate("/logout");
       }
     }
   }
